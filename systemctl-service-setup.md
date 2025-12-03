@@ -19,8 +19,7 @@ WantedBy=multi-user.target
 ### Reload conf and start service:
 ```
 sudo systemctl daemon-reload
-sudo systemctl disable <service>
-sudo systemctl restart <service>
+sudo systemctl start <service>
 ```
 Optional system autorun:
 ```
